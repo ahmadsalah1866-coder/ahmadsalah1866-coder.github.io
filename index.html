@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Ahmad Al-Remawi | Ali &amp; Sons Contracting</title>
 <meta name="theme-color" content="#ef8903">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 :root{--or:#ef8903;--or-d:#d97a00;--tint:#fdf1e2;--ink:#2a2420;--muted:#7a6f66;--line:#f1e6d8}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
@@ -16,8 +19,13 @@ body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;b
 .head .hsk{position:absolute;inset:0;width:100%;height:100%;z-index:0;opacity:.32}
 .logo{width:160px;height:160px;background:var(--or);border-radius:24px;margin:0 auto 14px;overflow:hidden}
 .logo img{width:100%;height:100%;object-fit:contain;display:block}
-h1{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:32px;font-weight:700;letter-spacing:-.3px}
-.company{margin:8px 0 0;font-family:Georgia,"Times New Roman",serif;font-size:14px;font-weight:700;letter-spacing:2.5px;opacity:.95}
+h1{margin:0 auto;width:100%;text-align:center;font-family:Georgia,"Times New Roman",serif;font-size:clamp(24px,7.4vw,30px);font-weight:700;letter-spacing:-.3px;line-height:1.15;text-wrap:balance}
+.role{margin:10px 0 0;font-family:Montserrat,system-ui,sans-serif;font-size:13px;font-weight:500;letter-spacing:3.5px;text-transform:uppercase;opacity:.95}
+.orn{display:flex;align-items:center;justify-content:center;gap:10px;margin:14px 0 0}
+.orn i{display:block;width:46px;height:1px;background:linear-gradient(90deg,transparent,#fff)}
+.orn i:last-child{background:linear-gradient(90deg,#fff,transparent)}
+.orn b{width:6px;height:6px;transform:rotate(45deg);border:1px solid #fff}
+.company{margin:12px 0 0;font-family:Montserrat,system-ui,sans-serif;font-size:12px;font-weight:600;letter-spacing:4px;padding-left:4px;opacity:.95}
 .actions{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:22px}
 .btn{display:flex;align-items:center;justify-content:center;gap:10px;padding:16px 10px;border-radius:16px;font-weight:700;font-size:17px;text-decoration:none;border:0;cursor:pointer;font-family:inherit;transition:transform .12s}
 .btn:active{transform:scale(.96)}
@@ -78,7 +86,9 @@ h1{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:32px;font-weig
 <path d="M352 60a14 14 0 1 1 0 .1M352 46v-8M352 74v8M338 60h-8M366 60h8"/>
 </g></svg>
     <div class="logo"><img src="https://cdn.prod.website-files.com/63b6ad58a2acb53207682b15/63b6ad58a2acb56ea6682cce_as-contracting.png" alt="Ali &amp; Sons Contracting" onerror="this.onerror=null;this.src='https://cdn.prod.website-files.com/6538a7ad52c9d823231bd186/6552fce82bac6240fbcf31e7_asc256.png'"></div>
-    <h1>Ahmad Al-Remawi</h1>
+    <h1>Eng. Ahmad Al-Remawi</h1>
+    <p class="role">Project Engineer</p>
+    <div class="orn"><i></i><b></b><i></i></div>
     <p class="company">ALI &amp; SONS CONTRACTING</p>
   </section>
 
@@ -88,7 +98,7 @@ h1{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:32px;font-weig
     <a class="btn light" href="mailto:ahmad.alremawi@ali-sons.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>Email</a>
     <a class="btn light" href="https://www.ali-and-sons-contracting.com" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>Website</a>
     <a class="btn li" href="https://www.linkedin.com/qr/AQAMDMLz51Y82WgzCm4y-eceCya4ofIVhD3ZWiOzqGfzJlXpgMY6bHqOAUMRFYzQG3Ciy4k2H2ciEepKBuA4RLQoavRI0OWzWRY" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>LinkedIn</a>
-    <a class="btn wide" id="saveBtn" href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0D%0AVERSION%3A3.0%0D%0AN%3AAl-Remawi%3BAhmad%3B%3B%3B%0D%0AFN%3AAhmad%20Al-Remawi%0D%0AORG%3AAli%20%26%20Sons%20Contracting%0D%0ATEL%3BTYPE%3DCELL%3A%2B971505813705%0D%0ATEL%3BTYPE%3DWORK%3A%2B97126723900%0D%0AEMAIL%3BTYPE%3DWORK%3Aahmad.alremawi%40ali-sons.com%0D%0AADR%3BTYPE%3DWORK%3A%3B%3B1st%20Floor%2C%20Emarat%20Aloula%20Building%2C%20ICAD%20III%3BAbu%20Dhabi%3B%3B%3BUAE%0D%0AURL%3Ahttps%3A//www.ali-and-sons-contracting.com%0D%0AEND%3AVCARD" download="Ahmad_Al-Remawi.vcf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>Save contact</a>
+    <a class="btn wide" id="saveBtn" href="data:text/vcard;charset=utf-8,BEGIN%3AVCARD%0D%0AVERSION%3A3.0%0D%0AN%3AAl-Remawi%3BAhmad%3B%3B%3B%0D%0AFN%3AEng.%20Ahmad%20Al-Remawi%0D%0AORG%3AAli%20%26%20Sons%20Contracting%0D%0ATITLE%3AProject%20Engineer%0D%0ATEL%3BTYPE%3DCELL%3A%2B971505813705%0D%0ATEL%3BTYPE%3DWORK%3A%2B97126723900%0D%0AEMAIL%3BTYPE%3DWORK%3Aahmad.alremawi%40ali-sons.com%0D%0AADR%3BTYPE%3DWORK%3A%3B%3B1st%20Floor%2C%20Emarat%20Aloula%20Building%2C%20ICAD%20III%3BAbu%20Dhabi%3B%3B%3BUAE%0D%0AURL%3Ahttps%3A//www.ali-and-sons-contracting.com%0D%0AEND%3AVCARD" download="Ahmad_Al-Remawi.vcf"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M19 8v6M22 11h-6"/></svg>Save contact</a>
     <a class="btn light" id="shareBtn" href="https://wa.me/?text=Ahmad%20Al-Remawi%20%7C%20Ali%20%26%20Sons%20Contracting%0Ahttps%3A//ahmadsalah1866-coder.github.io/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>Share</a>
     <a class="btn light" href="#qr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><path d="M14 14h3v3h-3zM17 17h4v4"/></svg>QR Code</a>
   </section>
@@ -113,7 +123,7 @@ h1{margin:0;font-family:Georgia,"Times New Roman",serif;font-size:32px;font-weig
 </div>
 
 <script>
-var vcf = "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Al-Remawi;Ahmad;;;\r\nFN:Ahmad Al-Remawi\r\nORG:Ali & Sons Contracting\r\nTEL;TYPE=CELL:+971505813705\r\nTEL;TYPE=WORK:+97126723900\r\nEMAIL;TYPE=WORK:ahmad.alremawi@ali-sons.com\r\nURL:https://www.ali-and-sons-contracting.com\r\nEND:VCARD";
+var vcf = "BEGIN:VCARD\r\nVERSION:3.0\r\nN:Al-Remawi;Ahmad;;;\r\nFN:Eng. Ahmad Al-Remawi\r\nORG:Ali & Sons Contracting\r\nTITLE:Project Engineer\r\nTEL;TYPE=CELL:+971505813705\r\nTEL;TYPE=WORK:+97126723900\r\nEMAIL;TYPE=WORK:ahmad.alremawi@ali-sons.com\r\nURL:https://www.ali-and-sons-contracting.com\r\nEND:VCARD";
 document.getElementById("saveBtn").addEventListener("click", function (e) {
   try {
     var blob = new Blob([vcf], { type: "text/vcard" });
@@ -127,7 +137,7 @@ document.getElementById("saveBtn").addEventListener("click", function (e) {
 document.getElementById("shareBtn").addEventListener("click", function (e) {
   if (navigator.share) {
     e.preventDefault();
-    navigator.share({ title: "Ahmad Al-Remawi | Ali & Sons Contracting", url: "https://ahmadsalah1866-coder.github.io/" }).catch(function () {});
+    navigator.share({ title: "Eng. Ahmad Al-Remawi | Ali & Sons Contracting", url: "https://ahmadsalah1866-coder.github.io/" }).catch(function () {});
   }
 });
 </script>
